@@ -9,7 +9,7 @@ if __name__ == '__main__':
     A = 50
     B = -.05
     C = 1
-    S =3 
+    S = 3
     trend = [A + B * i for i in range(length)]
     seasons = [S * sin(i/5) for i in range(length)]
     noise = [C * random.gauss(0, 1) for _ in range(length)]

@@ -5,7 +5,7 @@ from math import sin, cos
 
 
 def get_time_series_data(length):
-    a  = .2
+    a = .2
     b = 300
     c = 20
     ls = 5
