@@ -16,6 +16,7 @@ def get_time_series_data(length):
     for i in range(length):
         ts.append(b + a * i + ls * sin(i / 5) + ms * cos(i / 24) + gs *
                   sin(i / 120) + c * random.random())
+        
     return ts
 
 
